@@ -18,7 +18,6 @@
           colors: {
             clifford: '#da373d',
             'button-primary': '#ABEF5F',
-            'shape': '#ABEF5F'
           }
         }
       }
@@ -43,7 +42,7 @@
 
 <body class="manrope-font">
   <!-- Header Part -->
-  <header class="md:container mx-auto my-5">
+  <header class="md:container mx-auto mt-8">
     <!-- Navbar Start  -->
     <nav>
       <div class="navbar flex justify-between">
@@ -131,19 +130,67 @@
         class="mt-[2rem] flex justify-center items-center gap-x-4 w-[80%] sm:w-[20rem] h-[5rem] rounded-[3rem] bg-lime-300 hover:bg-lime-400 bg-opacity-50 border-2 border-lime-400">
         <p class="text-[1.5rem] text-gray-800 font-semibold">View Details</p>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-          class="size-6  bg-lime-600 rounded-full">
+          class="size-6  bg-lime-600 rounded-full w-7 h-7">
           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
         </svg>
       </button>
     </div>
     <!-- Hero End -->
   </header>
-  <!-- Header End -->
 
   <!-- Main Part -->
 
   <main>
-
+    <section class="mt-14 bg-[#F4F4F4] ">
+      <!-- About US Start -->
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 items-center py-8 md:py-16 lg:py-24 container mx-auto gap-10 px-5 md:px-10">
+        <div class="space-y-12 relative">
+          <img src="./assets/Vector.png" class=" hidden lg:block absolute left-[-10%] top-[-2rem]" alt="">
+          <div class="flex justify-center items-center lg:justify-start">
+            <button
+              class="rounded-full bg-white text-black-secondary font-extrabold px-6 border-1 border-green-primary py-2 flex items-center">
+              <div class="mr-2 flex justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </div>
+              <p>About Us</p>
+            </button>
+          </div>
+          <h2
+            class="font-extrabold text-3xl lg:text-4xl max-w-md md:max-w-xl lg:max-w-md mx-auto text-center lg:mx-0 lg:text-left ">
+            We design thoughtful, liveable spaces</h2>
+          <p class="text-black-secondary text-center lg:text-left">
+            The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
+            <div class="card card-side bg-white ">
+              <figure class="pl-8">
+                <img src="./assets/commercial.png" class="" alt="">
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title font-extrabold text-xl text-black-secondary">Commercial</h2>
+                <p class="text-black-tartiary max-w-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            <div class="card card-side bg-white ">
+              <figure class="pl-8">
+                <img src="./assets/residential.png" alt="">
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title font-extrabold text-xl text-black-secondary">Residential</h2>
+                <p class="text-black-tartiary max-w-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img class="w-full h-auto" src="./assets/Rectangle.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- About Us End -->
   </main>
 
   <!-- Footer Part -->
